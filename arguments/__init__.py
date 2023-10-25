@@ -46,6 +46,7 @@ class ParamGroup:
 
 class ModelParams(ParamGroup): 
     def __init__(self, parser, sentinel=False):
+        ##sh_degree 球谐函数阶数
         self.sh_degree = 3
         self._source_path = ""
         self._model_path = ""
